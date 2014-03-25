@@ -1,0 +1,6 @@
+name = Open Atrium Print 
+core = 7.x
+package = Open Atrium
+project = oa_print
+dependencies[] = print_pdf
+dependencies[] = contextual_tabs

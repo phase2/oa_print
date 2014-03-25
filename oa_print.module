@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_contextual_tabs_alter
+ * Adds a "Export as PDF" link
+ */
+function oa_print_contextual_tabs_alter(&$data) {
+  if (module_exists('print_pdf')) {
+    $node = menu_get_object();
+    if ($node && $node->print_pdf_display) {
+      $data['links'][] = array(
+        'data' => strip_tags(print_pdf_insert_link(NULL, $node), '<a>'),
+      );
+    }
+  }
+}
