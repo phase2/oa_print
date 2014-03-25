@@ -1,4 +1,9 @@
 <?php
+/**
+ * @file
+ * Code for Open Atrium Print
+ */
+include_once 'oa_print.features.inc';
 
 /**
  * Implements hook_contextual_tabs_alter
