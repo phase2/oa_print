@@ -5,4 +5,4 @@ projects[print][subdir] = contrib
 projects[print][version] = 1.2
 
 libraries[dompdf][download][type] = get
-libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
